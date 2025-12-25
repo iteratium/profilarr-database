@@ -5,27 +5,41 @@ tags:
 - radarr
 upgradesAllowed: true
 minCustomFormatScore: 75
-upgradeUntilScore: 100
+upgradeUntilScore: 150
 minScoreIncrement: 30
 custom_formats:
 - name: 1080p TAoE
+  score: 120
+- name: 1080p Vyndros
   score: 100
+- name: 1080p YTS
+  score: 75
 custom_formats_radarr:
 - name: 1080p QXR
-  score: 100
+  score: 150
+- name: 1080p Chivaman
+  score: 130
+- name: 1080p MeGusta
+  score: 90
 - name: 1080p PSA
+  score: 90
+- name: 1080p ELiTE
+  score: 75
+- name: 1080p Lootera
   score: 75
 custom_formats_sonarr:
+- name: 1080p Chivaman
+  score: 150
 - name: 1080p ELiTE
-  score: 100
-- name: 1080p Lootera
-  score: 100
+  score: 150
 - name: 1080p MeGusta
+  score: 120
+- name: 1080p Lootera
   score: 100
 - name: 1080p PSA
   score: 100
 - name: 1080p QXR
-  score: 80
+  score: 100
 qualities:
 - id: -1
   name: 1080p

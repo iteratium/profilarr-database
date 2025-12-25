@@ -1,0 +1,15 @@
+name: 1080p Chivaman
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+- name: Chivaman
+  type: release_title
+  required: true
+  negate: false
+  pattern: Chivaman
+tests: []
