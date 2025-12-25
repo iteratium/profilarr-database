@@ -1,0 +1,8 @@
+name: ELiTE
+pattern: (?<=^|[\s.-])(ELiTE)\b
+description: ''
+tags:
+- Release Group
+- Release Title
+- HEVC
+tests: []

@@ -1,0 +1,47 @@
+name: 1080p
+description: ''
+tags:
+- sonarr
+- radarr
+upgradesAllowed: true
+minCustomFormatScore: 75
+upgradeUntilScore: 100
+minScoreIncrement: 30
+custom_formats:
+- name: 1080p TAoE
+  score: 100
+custom_formats_radarr:
+- name: 1080p QXR
+  score: 100
+- name: 1080p PSA
+  score: 75
+custom_formats_sonarr:
+- name: 1080p ELiTE
+  score: 100
+- name: 1080p Lootera
+  score: 100
+- name: 1080p MeGusta
+  score: 100
+- name: 1080p PSA
+  score: 100
+- name: 1080p QXR
+  score: 80
+qualities:
+- id: -1
+  name: 1080p
+  description: ''
+  qualities:
+  - id: 8
+    name: Remux-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 10
+    name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
+upgrade_until:
+  id: -1
+  name: 1080p
+language: any

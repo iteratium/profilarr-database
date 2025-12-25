@@ -1,0 +1,29 @@
+name: 1080p Lootera
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+- name: Lootera
+  type: release_title
+  required: true
+  negate: false
+  pattern: Lootera
+tests:
+- conditionResults:
+  - matches: true
+    name: Lootera
+    negate: false
+    pattern: Lootera
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: The Family Man S03 1080p WebRip EAC3 5 1 x265-Lootera
+  lastRun: '2025-12-24T16:09:17.502923'
+  passes: true

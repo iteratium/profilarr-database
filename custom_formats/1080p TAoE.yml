@@ -1,0 +1,30 @@
+name: 1080p TAoE
+description: ''
+tags:
+- radarr
+- sonarr
+conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+- name: TAoE
+  type: release_title
+  required: true
+  negate: false
+  pattern: TAoE
+tests:
+- conditionResults:
+  - matches: true
+    name: TAoE
+    negate: false
+    pattern: TAoE
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Avatar (2009) Extended Collector's Edition (1080p BDRip x265 10bit EAC3 5
+    1 - WEM)[TAoE]
+  lastRun: '2025-12-23T15:51:03.459239'
+  passes: true

@@ -1,0 +1,8 @@
+name: PSA
+pattern: (?<=^|[\s.-])PSA\b
+description: ''
+tags:
+- Release Group
+- Release Title
+- WEB-DL
+tests: []

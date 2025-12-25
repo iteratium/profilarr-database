@@ -1,0 +1,8 @@
+name: Lootera
+pattern: (?<=^|[\s.-])Lootera\b
+description: ''
+tags:
+- Release Group
+- Release Title
+- HEVC
+tests: []
