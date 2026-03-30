@@ -1,0 +1,15 @@
+name: 1080p BiOMA
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: BiOMA
+  negate: false
+  pattern: BiOMA
+  required: true
+  type: release_title
+tests: []

@@ -5,13 +5,15 @@ tags:
 - radarr
 upgradesAllowed: true
 minCustomFormatScore: 75
-upgradeUntilScore: 150
+upgradeUntilScore: 75
 minScoreIncrement: 30
 custom_formats:
 - name: 1080p TAoE
   score: 120
 - name: 1080p Vyndros
   score: 100
+- name: 1080p BiOMA
+  score: 75
 - name: 1080p YTS
   score: 75
 custom_formats_radarr:

@@ -1,0 +1,7 @@
+name: BiOMA
+pattern: (?<=^|[\s.-])BiOMA\b
+description: ''
+tags:
+- Release Group
+- Release Title
+tests: []
