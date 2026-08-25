@@ -1,8 +1,0 @@
-name: MeGusta
-pattern: (?<=^|[\s.-])MeGusta\b
-description: ''
-tags:
-- Release Group
-- Release Title
-- WEB-DL
-tests: []

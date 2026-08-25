@@ -1,8 +1,0 @@
-name: Chivaman
-pattern: (?<=^|[\s.-])Chivaman\b
-description: ''
-tags:
-- Release Group
-- Release Title
-- Bluray
-tests: []
